@@ -1275,11 +1275,6 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
   .primary-toolbar scale trough:disabled, headerbar scale trough:disabled {
     background-color: rgba(77, 77, 77, 0.7); }
 
-.path-bar-box.width-maximized {
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 100px;
-  border: 1px solid rgba(77, 77, 77, 0.8); }
-
 .path-bar button.text-button {
   padding-left: 0px;
   padding-right: 0px; }
@@ -1302,7 +1297,7 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
   padding-left: 4px;
   padding-right: 4px; }
 
-.path-bar:not(.linked) button:checked {
+.path-bar:not(.linked) .horizontal:not(:first-child) > button:checked {
   margin-left: 10px; }
 
 treeview.view {
